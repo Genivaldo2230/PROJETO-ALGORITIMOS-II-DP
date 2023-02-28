@@ -2,7 +2,9 @@ package ExercicioAula3;
 
 import java.util.Random;
 import java.util.Scanner;
-
+/* Projeto codigo imprimir numeros aleatorio randomico  no vetor de matriz bi-dimencional  linhas e coluna
+* com entrada  do usuario
+* */
 public class Exercicio1 {
          public static void main(String[] args) {
             Scanner leitor = new Scanner(System.in);
