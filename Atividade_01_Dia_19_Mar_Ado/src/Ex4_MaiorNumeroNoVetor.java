@@ -1,10 +1,11 @@
 /*
-4. Buscar o maior número armazenado no vetor;
-
-Buscar o maior número armazenado no vetor: Nessa operação o seu programa não solicita nada ao usuário, somente chama a
- função que recebe por parâmetro o vetor de números, a função percorre o vetor e retorna o maior elemento encontrado no
-  vetor, no programa principal é impresso o maior elemento encontrado no vetor.
- */
+Entrega a Atividade 4 - Algoritmos e Programação II
+Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que
+todas as respostas são fruto de nosso próprio trabalho,
+não copiamos respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
+*/
 public class Ex4_MaiorNumeroNoVetor {
 
 

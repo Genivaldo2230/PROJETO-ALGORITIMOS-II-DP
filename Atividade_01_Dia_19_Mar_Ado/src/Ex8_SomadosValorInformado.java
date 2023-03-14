@@ -1,7 +1,12 @@
 import java.util.Arrays;
-/* 8. Verificar se dado um valor existe dois números em posições distintas que somados são iguais ao valor informado.Verificar se, dado um valor, existe dois números em posições distintas que somados é igual ao valor informado por parâmetro:
- Nessa operação deve ser implementada uma função que recebe como parâmetro o vetor e um valor. A função verifica se existe no vetor dois números em posições distintas no vetor que somados tem como resultado o valor informado por parâmetro à função.
-  Caso exista esses dois números no vetor a função retorna true e false caso contrário. */
+/*
+Entrega a Atividade 8 - Algoritmos e Programação II
+Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que
+todas as respostas são fruto de nosso próprio trabalho,
+não copiamos respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
+*/
 public class Ex8_SomadosValorInformado {
 
     // Função que recebe um vetor e um valor como parâmetros

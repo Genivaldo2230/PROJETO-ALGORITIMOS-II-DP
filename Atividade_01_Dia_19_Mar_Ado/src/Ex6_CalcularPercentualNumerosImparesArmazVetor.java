@@ -1,9 +1,11 @@
 /*
-6. Calcular o percentual dos números ímpares armazenados no vetor;
-Calcular o percentual dos números ímpares armazenados no vetor: Nessa operação o seu programa não solicita nada ao
- usuário, somente chama a função que recebe por parâmetro o vetor de números, a função calcula e retorna o percentual
-  de números ímpares armazenados no vetor, no programa principal é impresso o percentual calculado.
- */
+Entrega a Atividade 6- Algoritmos e Programação II
+Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que
+todas as respostas são fruto de nosso próprio trabalho,
+não copiamos respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
+*/
 public class Ex6_CalcularPercentualNumerosImparesArmazVetor {
     public static double percentualImpares(int[] vetor) {
         int impares = 0; // variável para contar os números ímpares

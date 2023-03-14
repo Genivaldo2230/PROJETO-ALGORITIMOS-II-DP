@@ -1,9 +1,14 @@
 import java.util.Random;
 import java.util.Scanner;
 
-/*2. Imprimir o vetor;
-
-* */
+/*
+Entrega a Atividade 2 - Algoritmos e Programação II
+Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que
+todas as respostas são fruto de nosso próprio trabalho,
+não copiamos respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
+*/
 public class Ex2_ImprimirOvetor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

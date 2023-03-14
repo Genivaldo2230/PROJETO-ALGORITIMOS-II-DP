@@ -1,15 +1,19 @@
 import java.util.Random;
 import java.util.Scanner;
 /*
-1) Inicializar o vetor com números aleatórios; Enquanto o usuário não escolher essa operação as outras operações não poderão
-executar, pois o vetor estará vazio. Quando o usuário selecionar essa opção o programa solicita o tamanho do vetor N e um
-inteiro positivo M, em seguida é criado um vetor com N posições e preenchida as posições do vetor com números inteiros positivos
-gerados aleatoriamente menores ou iguais a M. Nessa operação não é necessário fazer uma função você pode implementar ela direto no
-programa que faz o menu de opções.
+Entrega a Atividade 1 - Algoritmos e Programação II
+Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que
+todas as respostas são fruto de nosso próprio trabalho,
+não copiamos respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
 */
+
 public class Ex1_InicializarVetorAleatorio {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
+     public static void main(String[] args) {
+
+       Scanner sc = new Scanner(System.in);
         Random rd = new Random(); // Cria um objeto da classe Random
 
         System.out.println("Digite entrada de Vetor Qtd ? :");

@@ -1,11 +1,11 @@
 /*
-7. Calcula a média centralizada dos números armazenados no vetor;
-Calcula a média centralizada dos números armazenados no vetor: Nessa operação o seu programa não solicita nada ao usuário,
- somente chama a função que recebe por parâmetro o vetor de números, a função retorna a média "centralizada" do vetor passado
- por parâmetro, no cálculo da média “centralizada” é ignorado o maior e o menor valor no vetor, se houver várias cópias do menor
- valor, ignore apenas uma cópia e da mesma forma para o maior valor. Ao final sua função retorna a média dos números e no programa
- principal é impresso o valor da média “centralizada” calculada pela função.
- */
+Entrega a Atividade 7 - Algoritmos e Programação II
+Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que
+todas as respostas são fruto de nosso próprio trabalho,
+não copiamos respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
+*/
 public class Ex7_CalculaMediaCentralizadaVetor {
 
     // Função que recebe um vetor de números e retorna a média centralizada

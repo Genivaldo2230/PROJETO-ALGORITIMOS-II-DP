@@ -1,12 +1,12 @@
 import java.util.Scanner;
-
 /*
-3. Verificar se um determinado número está contido no vetor;
-Verificar se um determinado número está contido no vetor: Nessa operação o seu programa solicita que o usuário informe
-um valor a ser procurado no vetor, em seguida é chamada a função correspondente a essa operação, a função recebe por parâmetro
-o vetor e o valor a ser procurado, caso o valor esteja no vetor sua função retorna o índice onde foi encontrado o valor, e caso
-contrário sua função retorna -1, por fim, fora da função, o seu programa imprime uma mensagem informando se o valor foi ou não encontrado.
- */
+Entrega a Atividade 3 - Algoritmos e Programação II
+Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que
+todas as respostas são fruto de nosso próprio trabalho,
+não copiamos respostas de colegas externos à equipe,
+não disponibilizamos nossas respostas para colegas externos ao grupo e
+não realizamos quaisquer outras atividades desonestas para nos beneficiar ou prejudicar outros.
+*/
 public class Ex3_NumeroContidoNoVetor {
     public static int verificarValor(int[] vetor, int valor) {
         // percorre o vetor

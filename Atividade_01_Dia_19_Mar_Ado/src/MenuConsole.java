@@ -2,10 +2,19 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MenuConsole {
+    public static Ex1_InicializarVetorAleatorio main() {
 
-    public static void main(String[] args)throws Exception  {
+
+
+        //menu1 = new Ex1_InicializarVetorAleatorio();
+
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner sc = new Scanner(System.in);
+
+
+        //Estanciando as Classe
+        Ex1_InicializarVetorAleatorio menu1 = new Ex1_InicializarVetorAleatorio();
+        Ex2_ImprimirOvetor menu2 = new Ex2_ImprimirOvetor();
 
         // Cria um array de strings para armazenar as opções do menu
         String[] opcoes = {"1. Inicializar Vertor Aleatorio", "2. Imprimir o Vetor", "3. Número Contido no Vetor", "4. Maior Número do Vetor", "5. Calcular Média Números Pares", "6. Calacular Porcentual Número Impares Armazenado Vetor ", "7. Calcular Media Centralizada do Vetor ", "8. Somando Valor Informado", "9. Sair"};
@@ -36,11 +45,16 @@ public class MenuConsole {
                 case 1:
                     // Chama o método
                     executar(sc);
-                    break;
+
+                    menu1 = main();
+
+               break;
+
+
                 case 2:
                     // Chama o método
                     executar(sc);
-                    break;
+                   break;
                 case 3:
                     // Chama o método
                     executar(sc);
@@ -73,7 +87,7 @@ public class MenuConsole {
                     // Sai do loop e encerra o programa
                     System.out.println("Obrigado por usar o menu do console. Até mais!");
                     sc.close();
-                    return;
+                    return menu1;
                 default:
                     // Imprime uma mensagem de erro se a opção for inválida
                     System.out.println("Opção inválida. Tente novamente.");
@@ -82,6 +96,12 @@ public class MenuConsole {
         }
     }
 
+    private static Ex1_InicializarVetorAleatorio menu1() {
+        return null;
+    }
+
+
     private static void executar(Scanner sc) {
     }
-}
+
+   }
