@@ -1,11 +1,11 @@
+package MenuComVetor;
+
 import java.util.Random;
 import java.util.Scanner;
 
 public class MenuConsole {
-    public static Ex1_InicializarVetorAleatorio main() {
-
-
-
+    //public static Ex1_InicializarVetorAleatorio main() {
+    public static void main(String[] args) {
         //menu1 = new Ex1_InicializarVetorAleatorio();
 
         // Cria um objeto Scanner para ler a entrada do usuário
@@ -15,6 +15,8 @@ public class MenuConsole {
         //Estanciando as Classe
         Ex1_InicializarVetorAleatorio menu1 = new Ex1_InicializarVetorAleatorio();
         Ex2_ImprimirOvetor menu2 = new Ex2_ImprimirOvetor();
+        Ex6_CalcularPercentualNumerosImparesArmazVetor menu6 = new Ex6_CalcularPercentualNumerosImparesArmazVetor();
+        Ex8_SomadosValorInformado menu8 = new Ex8_SomadosValorInformado();
 
         // Cria um array de strings para armazenar as opções do menu
         String[] opcoes = {"1. Inicializar Vertor Aleatorio", "2. Imprimir o Vetor", "3. Número Contido no Vetor", "4. Maior Número do Vetor", "5. Calcular Média Números Pares", "6. Calacular Porcentual Número Impares Armazenado Vetor ", "7. Calcular Media Centralizada do Vetor ", "8. Somando Valor Informado", "9. Sair"};
@@ -32,9 +34,9 @@ public class MenuConsole {
 
 
             //Random rd = new Random();
-            int executar =9;
-            int[]vetor = new int[executar];
-            for(int i=0; i < executar;i++){
+            int executar = 9;
+            int[] vetor = new int[executar];
+            for (int i = 0; i < executar; i++) {
 
                 int random = new Random().nextInt(9);
                 executar = random;
@@ -46,15 +48,16 @@ public class MenuConsole {
                     // Chama o método
                     executar(sc);
 
-                    menu1 = main();
+                    System.out.println(menu1);
 
-               break;
+
+                    break;
 
 
                 case 2:
                     // Chama o método
                     executar(sc);
-                   break;
+                    break;
                 case 3:
                     // Chama o método
                     executar(sc);
@@ -70,7 +73,9 @@ public class MenuConsole {
                     break;
                 case 6:
                     // Chama o método
-                    executar(sc);
+                    // executar(sc);
+
+                    System.out.println(menu6);
                     break;
 
                 case 7:
@@ -81,13 +86,14 @@ public class MenuConsole {
                 case 8:
                     // Chama o método
                     executar(sc);
+
                     break;
 
                 case 9:
                     // Sai do loop e encerra o programa
                     System.out.println("Obrigado por usar o menu do console. Até mais!");
                     sc.close();
-                    return menu1;
+                    return;
                 default:
                     // Imprime uma mensagem de erro se a opção for inválida
                     System.out.println("Opção inválida. Tente novamente.");
@@ -96,12 +102,7 @@ public class MenuConsole {
         }
     }
 
-    private static Ex1_InicializarVetorAleatorio menu1() {
-        return null;
-    }
-
-
     private static void executar(Scanner sc) {
     }
 
-   }
+}

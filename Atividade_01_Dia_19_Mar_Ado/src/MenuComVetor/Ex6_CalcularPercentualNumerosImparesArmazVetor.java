@@ -1,3 +1,5 @@
+package MenuComVetor;
+
 /*
 Entrega a Atividade 6- Algoritmos e Programação II
 Autor Nome completo :Genivaldo Alves Dos Anjos :  declaramos que

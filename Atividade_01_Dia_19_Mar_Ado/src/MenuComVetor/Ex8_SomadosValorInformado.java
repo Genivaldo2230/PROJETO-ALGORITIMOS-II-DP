@@ -1,3 +1,5 @@
+package MenuComVetor;
+
 import java.util.Arrays;
 /*
 Entrega a Atividade 8 - Algoritmos e Programação II

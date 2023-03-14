@@ -1,3 +1,5 @@
+package MenuComVetor;
+
 import java.util.Scanner;
 /*
 Entrega a Atividade 3 - Algoritmos e Programação II
