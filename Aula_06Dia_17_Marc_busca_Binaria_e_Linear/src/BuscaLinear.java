@@ -30,6 +30,7 @@ public class BuscaLinear {
 
         for(int i =0; i<=num1; i++){
 
+            int nun2 = 0;
             System.out.println(nun2);
 
         }
